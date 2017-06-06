@@ -1,0 +1,35 @@
+*howdy.txt* A tiny MRU start screen
+
+Author: Daniel B. Marques
+License: Same as Vim (see |license|)
+
+
+==============================================================================
+
+A tiny MRU start screen for Vim.
+
+
+Usage                                                          *howdy-usage*
+-----
+
+    - Install Howdy using your favorite plugin manager or copy each file to
+      its corresponding directory under "~/.vim/".
+
+    - Type <CR> to open a file.
+
+    - Type "q" to exit to a markdown scratch buffer.
+
+    - If there are files you want Howdy to ignore, add the patterns to be
+      matched to g:howdy_ignore:
+>
+          let g:howdy_ignore = [ 'vim\/runtime\/doc\/.*.txt' ]
+<
+      (That's the default, causing Howdy to ignore Vim's help files.)
+
+    - Use ":Howdy" to open Howdy anytime.
+
+That's it!
+
+
+vim:tw=78:ts=8:ft=help:norl:
+

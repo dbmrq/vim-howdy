@@ -37,7 +37,7 @@ endfunction
 function! s:noFile()
     if @% == ""
         setlocal noswapfile buflisted buftype=nofile
-        setlocal bufhidden=hide filetype=markdown scrolloff=0
+        setlocal bufhidden=hide filetype=markdown
         call s:howdy()
     endif
 endfunction

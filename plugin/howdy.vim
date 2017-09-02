@@ -31,7 +31,7 @@ function! s:howdy()
 endfunction
 
 function! s:openFile()
-    let l:file = getline('.') | q | execute 'e' l:file
+    let l:file = getline('.') | q | execute 'e' fnameescape(l:file)
 endfunction
 
 function! s:noFile()

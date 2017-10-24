@@ -22,7 +22,7 @@ function! s:howdy()
     belowright 12new +file\ Howdy
     silent 0put =v:oldfiles
     silent call matchadd('Conceal', '^\zs.*\ze\/.*\/.*\/', 10, 99, {'conceal': '…'})
-    for pattern in g:howdy_ignore | silent execute 'g/' . pattern . '/d' | endfor
+    for pattern in g:howdy_ignore | silent execute 'g/' . pattern . '/d_' | endfor
     silent execute 'g/^/m0' | execute 'normal! G'
     nnoremap <silent> <buffer> q :q<CR>
     nnoremap <silent> <buffer> <CR> :call <SID>openFile()<CR>

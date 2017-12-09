@@ -29,6 +29,7 @@ That's it!
 You may also be interested in my other plugins:
 
 - [Ditto: highlight overused words](https://github.com/dbmrq/vim-ditto) :speak_no_evil:
+- [Redacted: the best way to ████ the ████](https://github.com/dbmrq/vim-redacted) :no_mouth:
 - [Dialect: project specific spellfiles](https://github.com/dbmrq/vim-dialect) :speech_balloon:
 - [Chalk: better fold markers](https://github.com/dbmrq/vim-chalk) :pencil2:
 
